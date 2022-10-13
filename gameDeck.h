@@ -4,13 +4,25 @@ class gameDeck
 
 	gameDeck()
 	{
-		
+
+	}
+	
+	gameDeck(int a)
+	{
+		card = a;
 	}
 
 	int test()
 	{
-		return 1;
+		return card;
 	}
+
+	void setCard(int x)
+	{
+		card = x;
+	}
+
+	private: int card = 0;
 };
 
 
