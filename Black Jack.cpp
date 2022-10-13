@@ -11,20 +11,18 @@ using namespace std;
 
 int main()
 {
-    //gameDeck deck = gameDeck();
+    gameDeck deck = gameDeck();
     int numDecks = 0;
 
-    cin >> numDecks;
+    //cin >> numDecks;
 
-    gameDeck decks[40];
+    //gameDeck decks[40];
 
-    for (int i=0;i<numDecks;i++)
+    deck.buildDeck();
+    
+    for(int i = 0; deck.getDeckList().size()>i; i++)
     {
-        decks[i].setCard(i + 1);
-    }
-    for (int i = numDecks-1; i >=0; i--)
-    {
-        cout << decks[i].test()<<endl;
+        cout <<deck.getDeckList().at(i);
     }
 
     //cout << deck.test();
