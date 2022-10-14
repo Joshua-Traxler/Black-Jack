@@ -1,11 +1,7 @@
 
 
-#include <cstdlib>
-#include <cstring>
-#include <cmath>
-#include <iostream>
-#include <iomanip>
-#include "gameDeck.h"
+#include "lib.h"
+#include "gameDeck.cpp"
 
 using namespace std;
 

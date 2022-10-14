@@ -131,7 +131,7 @@
     <ClCompile Include="gameDeck.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="gameDeck.h" />
+    <ClInclude Include="lib.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="DeckList.txt" />
